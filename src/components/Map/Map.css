@@ -1,0 +1,47 @@
+.btn {
+  width: auto;
+  margin: 10px 20px 16px 0;
+  padding: 0 20px;
+  text-transform: uppercase;
+  background-color: #ccf;
+  color: #000;
+  border: 2px solid #ccf;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.25s ease 0s; }
+  .btn:hover {
+    background-color: #aeaee0; }
+  .btn__disabled {
+    background-color: #ccc;
+    border: 2px solid #ccc;
+    cursor: default;
+    pointer-events: none; }
+
+.bnt-group {
+  display: flex; }
+
+.list {
+  display: flex;
+  padding: 0;
+  list-style-type: none;
+  font-weight: bold; }
+
+.list-item {
+  position: relative;
+  padding: 0 5px;
+  cursor: pointer; }
+  .list-item:hover::after {
+    opacity: 1;
+    transform: translateY(0); }
+  .list-item::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 98%;
+    height: 1px;
+    background: grey;
+    transform: translateY(5px);
+    opacity: 0;
+    transition: .4s linear; }

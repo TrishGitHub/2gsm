@@ -1,0 +1,14 @@
+{
+  "server": {
+    "path": "http://localhost:3001",
+    "markers": "api/markers"
+  },
+
+  "db": {
+    "host": "ds255260.mlab.com",
+    "port": "55260",
+    "name": "map",
+    "user": "admin_map",
+    "password": "7895123map"
+  }
+}
