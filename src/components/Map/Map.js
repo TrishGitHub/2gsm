@@ -16,7 +16,7 @@ class Map extends Component {
 
 	markersSaveHandler = () => {
 		markersApi.forEach(function (element) {
-			axios.post('/api/markers', {
+			axios.post('http://localhost:3001/api/markers', {
 				latitude: element[0],
 				longitude: element[1]
 			})
