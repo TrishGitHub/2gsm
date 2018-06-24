@@ -1,16 +1,18 @@
-Комманды:
-
 npm install — установка модулей
 
-start — запуск проекта
+yarn start — запуск проекта
 
-build — сборка проекта
+yarn build — сборка проекта
 
-server — запуск сервера 
+yarn server — запуск сервера 
 
-Проект будет доступен по адресу: http://localhost:3000/
-Логин: 1
-Пароль: 1
+Open http://localhost:3000/ in your browser
+
+'About author' is a public page; 'Main' — a private one.
+
+Login: 1
+
+Pass: 1
 
 Api: http://localhost:3001/api/markers
 

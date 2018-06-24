@@ -22,9 +22,7 @@
     "build-js": "react-scripts build",
     "build": "npm-run-all build-css build-js",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
-    "cypress:open": "cypress open",
-    "cypress:run": "cypress run"
+    "eject": "react-scripts eject"
   },
   "devDependencies": {
     "axios": "^0.18.0",
